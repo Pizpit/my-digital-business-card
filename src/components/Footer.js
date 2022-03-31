@@ -13,7 +13,7 @@ export default function Footer() {
 				<img src="./images/LinkedinIcon.png" alt="" />
 			</a>
 			<a href="https://github.com/pizpit">
-				<img src="./images/GithubIcon.png" alt="" />
+				<img src="./images/GitHubIcon.png" alt="" />
 			</a>
 		</footer>
 	);
