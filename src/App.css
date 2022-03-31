@@ -1,0 +1,126 @@
+.App {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+/* General stlyes */
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+a {
+	font-size: 10px;
+	text-decoration: none;
+}
+p {
+	font-size: 12px;
+}
+button {
+	cursor: pointer;
+}
+
+/* Whole Card */
+.card {
+	max-width: 318px;
+	/* max-width: 600px; */
+	background-color: #1a1b21;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Portfolio Photo */
+.photo {
+	padding: 0;
+	margin: 0;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+}
+
+/* Header Text */
+.card-header {
+	width: 66%;
+	/* padding: 0.5em 0; */
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+}
+.card-header > h1 {
+	margin: 0;
+}
+.card-header > h3 {
+	margin: 0;
+	color: #e6b592;
+}
+.card-header > a {
+	margin: 0;
+	color: white;
+}
+
+/* Buttons */
+.button-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.button-container > button {
+	width: 45%;
+	border: none;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5em;
+}
+.button-container > button > img {
+	max-width: 25px;
+}
+.button-container > button > a {
+	font-size: 16px;
+	padding: 5px;
+	color: #1a1b21;
+}
+.button-container > button:nth-child(2) {
+	background-color: #5093e2;
+}
+.button-container > button:nth-child(2):hover {
+	background-color: #3265a0;
+
+}
+.button-container > button:last-child > a {
+	color: white;
+}
+
+/* About and Interests */
+.card-container {
+	width: 80%;
+	margin-bottom: 25px;
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+}
+
+/* Footer */
+.footer-container {
+	border-radius: 0 0 15px 15px;
+	background-color: #161619;
+	width: 100%;
+	padding: 25px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
