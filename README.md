@@ -23,10 +23,10 @@
 
 ### Built with
 
+- create-react-app
 - React
-- This project was bootstrapped with create-react-app.
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
 
 ### What I learned
