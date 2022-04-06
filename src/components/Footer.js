@@ -9,7 +9,7 @@ export default function Footer() {
 			<a href="https://facebook.com/">
 				<img src="./images/FacebookIcon.png" alt="" />
 			</a>
-			<a href="https://www.linkedin.com/in/harold-smith-iii-3a24bb235/">
+			<a href="https://www.linkedin.com/in/hrsmith3/">
 				<img src="./images/LinkedinIcon.png" alt="" />
 			</a>
 			<a href="https://github.com/pizpit">

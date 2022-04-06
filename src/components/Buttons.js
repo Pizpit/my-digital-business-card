@@ -9,7 +9,7 @@ export default function Buttons() {
 			</button>
 			<button className="btn">
 				<img className="btn-icon" src="./images/LinkedinIcon-small.png" alt="" />
-				<a href="https://www.linkedin.com/in/harold-smith-iii-3a24bb235/"> LinkedIn</a>
+				<a href="https://www.linkedin.com/in/hrsmith3/"> LinkedIn</a>
 			</button>
 		</div>
 	);
